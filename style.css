@@ -1,0 +1,48 @@
+body {
+    background-color: chocolate;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    bottom: 50;
+    margin-top: 13rem;
+    padding: 5px;
+
+}
+
+button {
+    width: 30%;
+    height: 50px;
+    font-size: 30px;
+    padding: 10px 50px;
+    padding-top: 10px;
+    background-color: rgba(128, 128, 128, 0.383);
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+button:hover {
+    background-color: aqua;
+    cursor: pointer
+}
+
+.clockwise {
+    background-color: purple;
+    border: 1px solid rgba(0, 0, 255, 0.787);
+    border-radius: 5%;
+}
+
+.clockwise:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+}
